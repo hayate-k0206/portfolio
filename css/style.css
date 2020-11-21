@@ -227,15 +227,25 @@ li {
 .works-title {
   font-size: 12px;
   font-weight: bold;
-  margin-top: 8px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .works-text {
   font-size: 12px;
+  text-align: left;
 }
 
 .works-url {
   font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  transition: .3s;
+}
+.works-url:hover{
+  opacity: 0.6;
+  transition: .3s;
 }
 
 .works-image.fadein {
